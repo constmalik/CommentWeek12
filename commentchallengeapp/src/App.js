@@ -64,12 +64,12 @@ class App extends Component {
     return (
       <div className="container">
         <div className="header">
-          <h1>This is not Facebook.</h1>
+          <h1>Comment Challenge App</h1>
         </div>
         <section className="getcomments">
           <div className="addcomment">
-            <input type="text" id="comment" placeholder="Write a comment" onChange={this.handleChange} value={this.state.commentBox}/>
-            <button id="commentbtn" onClick={this.handleSubmit}>comment</button>
+            <input type="text" id="comment" placeholder="Leave a comment" onChange={this.handleChange} value={this.state.commentBox}/>
+            <button id="commentbtn" onClick={this.handleSubmit}>Comment</button>
           </div>
         </section>
         <section className="showcomments">

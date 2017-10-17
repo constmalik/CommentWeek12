@@ -7,23 +7,45 @@ Create a thumbs up / thumbs down counter for these comments and ability to delet
 }
 .header {
   background-color: #526081;
-  padding: 1px;
-  margin: 0 auto;
+  padding: 25px;
+  margin: 25px auto;
+  font-family: 'Bungee', cursive;
+
 }
 .addcomments {
   border: 1px solid ;
   display: inline-block;
   margin: 10px;
 }
+.getcomments {
+  margin: 25px;
+}
 .showcomments {
   width: 400px;
   height: 300px;
-  border: 1px solid;
+  border: 5px double #526081;
   display: inline-block;
+  padding: 50px;
+  background-color: grey;
 }
 #commentText {
   margin: 10px;
 }
 #eachComment {
   margin: 10px;
+}
+#comment {
+  width: 200px;
+  height: 25px;
+  border-radius: 50px;
+  font-size: 1em;
+}
+#commentbtn {
+  background-color: black;
+  opacity: 0.1;
+  color: white;
+  margin: 5px;
+  height: 25px;
+  border: 2px solid;
+  border-radius: 10px;
 }
